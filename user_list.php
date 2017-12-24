@@ -19,7 +19,9 @@
 
 			</tr>
 <?php
-
+	if (! isset($_SESSION["user_id"])){    //  not allowed to see this page
+		header('Location: home.php?param=1');
+	}
 	$user_id = $_SESSION["user_id"];
 	include 'mysql.php';
 	if($resid) {

@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 <head>
+	<style>
+		.redtext{
+			color:red;
+		}
+		
+	</style>
 	<link rel='stylesheet' href='page_css.css'>
 	<title> Project Share</title>
 </head>
@@ -23,6 +29,7 @@
 			<tr>
 				<td colspan='4'> 
 					<p> 
+					      <h3 class=redtext> <?php if(!empty($_GET['param']) && $_GET['param']=="1") echo 'You are not logged-in yet!'  ?></h3>
 						  <h3>Welcome to our Home Page</h3>
 					</p>
 	

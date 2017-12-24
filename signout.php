@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel='stylesheet' href='page_css.css'>
-	<title> Student's Hangout </title>
+	<title> Login System </title>
 </head>
 <body>
 		<table cellpadding='3' cellspacing='3' class='tab_main'>
