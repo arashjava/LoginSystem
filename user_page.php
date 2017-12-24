@@ -104,30 +104,7 @@
 						$count = MySQLi_Query($resid,"select user_id from Users");
 						if($count) {
 						$f=1;
-/*						while(($rows=MySQLi_Fetch_Row($count))==True) {
-							$f=2;
-							$query = "select status,time_format(timestamp,'%l:%i:%s %p') as time,date_format(timestamp,'%D of %M,%Y') as date from status_here where user_id = $rows[0] order by id desc";
-							$queryx = "select name from students where id = $rows[0]";
-							$result = MySQLi_Query($resid,$query);
-							$result1 = MySQLi_Query($resid,$queryx);
-							$name_here =MySQLi_Fetch_Row($result1);
-							if($result) {
 
-										while(($rows1=MySQLi_Fetch_Row($result))==True) {
-											
-											echo "<tr> <td> <font style='color:blue'>$name_here[0]: </font> </td> </tr>";
-											echo "<tr> <td style='word-wrap:break-word'> $rows1[0] </td> </tr>";
-											echo "<tr> <td> (On $rows1[2] at $rows1[1]) </td> <tr>";
-											
-										}
-										
-							}
-
-							
-						} 
-						if($f==1) {
-							echo "<table> <tr align='centre'> <td>  <i> Sorry, you don't have friends yet! </i>  </td> </tr> </table>";
-						}  */
 						echo "</table>";
 						
 					}
