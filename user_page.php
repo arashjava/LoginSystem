@@ -59,7 +59,7 @@
 			}
 			$query="select * from Users where user_email='$email' and user_pass='$password'";
 
-			$resid=MySQLi_Connect('localhost','root','baaykdazyg','ProjectShare');
+			$resid=MySQLi_Connect('localhost','root','','ProjectShare');
 			if(MySQLi_Connect_Errno()) {
 				echo "<tr align='center'> <td colspan='5'> Failed to connect to MySQL </td> </tr>";
 			}
