@@ -7,8 +7,8 @@
 		}
 		
 	</style>
-	<link rel='stylesheet' href='page_css.css'>
-	<title> Project Share</title>
+	<link rel='stylesheet' href='./css/main.css'>
+	<title> User Login</title>
 </head>
 <body>
 		<table cellpadding='3' cellspacing='3' class='tab_main'>

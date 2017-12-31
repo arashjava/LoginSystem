@@ -1,55 +1,13 @@
 <!doctype html>
 <html>
 <head>
-	<link rel='stylesheet' href='page_css.css'>
-	<title> Login Programs </title>
-		<script type='text/javascript'>
-		function sec() {
-			var email=document.f1.e1.value;
-			var password=document.f1.p1.value;
-			
-			
-			if(email.length==0||password.length==0) {
-
-				if(email.length==0) {
-				s1.innerHTML="<font color='red'>Field is Required</font>";
-				
-				}
-
-				
-				if(password.length==0) {
-				s2.innerHTML="<font color='red'>Field is Required</font>";
-				
-				}
-			}
-			
-			else if (email.length>50||password.length>50) {
-
-				if(email.length>50) {
-				s3.innerHTML="<font color='red'>Characters should be less than 50 </font>";
-				
-				}
-				
-				if(password.length>50) {
-				s4.innerHTML="<font color='red'>Characters should be less than 50 </font>";
-				
-				}
-			}
-			
-			else {
-				document.f1.submit();
-			}
-			
-			
-			
-						
-			
-		}
-	</script>
+	<link rel='stylesheet' href='./css/main.css'>
+	<title> Login System </title>
+	<script type='text/javascript' src='/LoginSystem/js/login.js'></script>
+	
 </head>
 <body>
 		<table cellpadding='3' cellspacing='3' class='tab_main'>
-			<!--Logo-->
 			<!--Nav_Tabs-->
 			<tr align='center' bgcolor='lightgrey' class='td_bor'>
 				<td width='5%'> <a href='home.php'>Home </a></td>
@@ -77,7 +35,7 @@
 							</tr>
 							
 							<tr>
-								<td> </td> <td> <input type='hidden' name='h1' value='holla'>  </td>
+								<td> </td> <td> <input type='hidden' name='h1' value='hello'>  </td>
 							</tr>
 							
 							<tr>

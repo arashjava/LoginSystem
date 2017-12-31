@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<link rel='stylesheet' href='page_css.css'>
+	<link rel='stylesheet' href='./css/main.css'>
 	<title> Login System </title>
 </head>
 <body>
